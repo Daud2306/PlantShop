@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Plants Avenue — Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="hero-header-wrapper">
+        <header class="site-header">
+            <div class="container header-row">
+                <a class="brand" href="#"><i class="fa-solid fa-leaf"></i> Plants Avenue</a>
+
+                <nav class="nav" id="mainNav" aria-label="Main navigation">
+                    <a href="#home">Home</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="header-actions" aria-hidden="false">
+                    <button class="icon-btn" aria-label="Wishlist"><i class="fa fa-heart"></i></button>
+                    <button class="icon-btn" aria-label="Cart"><i class="fa fa-shopping-bag"></i></button>
+                    <button class="icon-btn" aria-label="Account"><i class="fa fa-user"></i></button>
+
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Buka menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <h1>Bring The Nature <br>Close To You</h1>
+                    <p class="lead">Enhance your space with our indoor and herb plants. <br>Experience the calming
+                        effect of greenary, right at home.</p>
+                    <a href="#products" class="btn btn-primary">Discover Now <i class="fa fa-arrow-circle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+
+                <div class="hero-right">
+                    <div class="hero-arch">
+                        <img src="assets/img/hero.png" alt="Tanaman hias di dalam pot dekoratif" loading="lazy"
+                            width="1200" height="1600">
+                        <div class="price-badge">Price<span>$8</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="benefits-section">
+        <div class="container">
+            <div class="benefits" aria-hidden="false">
+                <div class="benefit">
+                    <div class="benefit-icon" aria-hidden="true"><i class="fa-solid fa-truck"></i></div>
+                    <div class="benefit-text">
+                        <span class="benefit-title">Free Delivery</span>
+                        <span class="benefit-desc">Free shipping around the world for all orders over $120</span>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="benefit-text">
+                        <span class="benefit-title">Safe Payment</span>
+                        <span class="benefit-desc">with our payment gateway, don't worry about your information</span>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon" aria-hidden="true"><i class="fa-solid fa-headset"></i></div>
+                    <div class="benefit-text">
+                        <span class="benefit-title">Friendly Services</span>
+                        <span class="benefit-desc">You have 30-day return guarantee for every single order</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collections" class="section">
+        <div class="container">
+            <div class="cards">
+                <article class="card small">
+                    <div class="card-content">
+                        <span class="card-label">Big Sale Products</span>
+                        <h3>Indoor Plants</h3>
+                        <a href="#" class="shop-link">SHOP NOW</a>
+                    </div>
+                    <img src="assets/img/product-1.webp" alt="Indoor plant in terracotta pot" loading="lazy"
+                        width="1200" height="1600">
+                </article>
+
+                <article class="card small">
+                    <div class="card-content">
+                        <span class="card-label">Top Products</span>
+                        <h3>Herbal Plants</h3>
+                        <a href="#" class="shop-link">SHOP NOW</a>
+                    </div>
+                    <img src="assets/img/product-2.webp" alt="Herbal plant in terracotta pot" loading="lazy"
+                        width="1200" height="1600">
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+
+            <div class="tabs" role="tablist" aria-label="Filter produk">
+                <button class="tab active" data-filter="all">WHAT'S NEW</button>
+                <button class="tab" data-filter="best">BEST SELLERS</button>
+                <button class="tab" data-filter="fav">CUSTOMER FAVORITES</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <article class="product-card" data-cat="all best">
+                    <div class="product-media">
+                        <img src="assets/img/product-1.png" alt="Homalomena Rubescens" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Homalomena Rubescens</h3>
+                    <div class="price">$4.00</div>
+                </article>
+
+                <article class="product-card" data-cat="all fav">
+                    <div class="product-media">
+                        <img src="assets/img/product-2.png" alt="Licuala Grandis" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Licuala Grandis</h3>
+                    <div class="price">$4.00</div>
+                </article>
+
+                <article class="product-card" data-cat="all">
+                    <div class="product-media">
+                        <img src="assets/img/product-3.webp" alt="Fiddle Leaf Fig" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Fiddle Leaf Fig</h3>
+                    <div class="price">$4.00</div>
+                </article>
+
+                <article class="product-card" data-cat="all best">
+                    <div class="product-media">
+                        <img src="assets/img/product-1.webp" alt="Homalomena Rubescens" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Homalomena Rubescens</h3>
+                    <div class="price">$4.00</div>
+                </article>
+
+                <article class="product-card" data-cat="all fav">
+                    <div class="product-media">
+                        <img src="assets/img/product-2.webp" alt="Licuala Grandis" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Licuala Grandis</h3>
+                    <div class="price">$4.00</div>
+                </article>
+
+                <article class="product-card" data-cat="all">
+                    <div class="product-media">
+                        <img src="assets/img/product-3.webp" alt="Fiddle Leaf Fig" loading="lazy" width="1200"
+                            height="1600">
+                    </div>
+                    <h3>Fiddle Leaf Fig</h3>
+                    <div class="price">$4.00</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container about-wrapper">
+            <div class="about-left">
+                <h2>Grow Plant For<br>A Better Life</h2>
+            </div>
+            <div class="round-images">
+                <div class="circle circle-large">
+                    <img src="assets/img/product-1.webp" alt="Large plant">
+                </div>
+
+                <div class="circle circle-small">
+                    <img src="assets/img/product-2.webp" alt="Small plant">
+                </div>
+            </div>
+            <div class="about-right">
+                <p>
+                    Cultivating plants enhances well-being and contributes to a healthier
+                    environment, fostering a more fulfilling life.
+                </p>
+                <a href="#products" class="btn btn-primary">Read Now <i class="fa fa-arrow-circle-right"
+                        aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="steps" class="section">
+        <div class="container">
+            <h2 class="section-title">Steps to start taking care of your plants</h2>
+            <p class="section-subtitle">The right solution for the care of green and smart plants</p>
+
+            <div class="icons-grid">
+                <div class="icon-card">
+                    <div class="icon"><i class="fa-solid fa-tint"></i></div>
+                    <h4>Humidity Control</h4>
+                    <p>Effective humidity control is essential for properly caring for plants, ensuring optimal growth
+                        and overall health.</p>
+                </div>
+                <div class="icon-card">
+                    <div class="icon"><i class="fa-solid fa-bug"></i></div>
+                    <h4>Pest Anticipation</h4>
+                    <p>Implementing proactive pest anticipation measures is essential to safeguard and nurture the
+                        well-being of plants.</p>
+                </div>
+                <div class="icon-card">
+                    <div class="icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h4>Pruning Weeds</h4>
+                    <p>Taking care of plants involves diligently managing unwanted growth to ensure their well-being.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section cta">
+        <div class="container cta-grid">
+            <div class="cta-image">
+                <img src="assets/img/cta.webp" alt="Tanaman dalam ruangan yang sehat" loading="lazy" width="1200"
+                    height="1600">
+            </div>
+            <div class="cta-content">
+                <h2>Come with us how to grow your plants to be better and healthier</h2>
+                <p>Join us on a journey to learn the art of growing healthier and more vibrant plants. We're here to
+                    share tips and insights that will help you nurture your garden to its fullest potential. Come along
+                    with us, and let's explore the simple yet effective ways to make your plants thrive, naturally.</p>
+                <a href="#" class="btn btn-primary">
+                    Read More <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="site-footer" id="site-footer">
+        <div class="footer-inner">
+            <div class="footer-subscribe" aria-labelledby="subscribe-heading">
+                <h3 id="subscribe-heading">Stay In The Loop With Special Offers, Plant Parenting Tips, &amp; More.</h3>
+                <form class="subscribe-form" action="#" method="post" novalidate>
+                    <label for="subscribe-email" class="visually-hidden">Email</label>
+                    <input id="subscribe-email" name="email" type="email" placeholder="Email" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa fa-paper-plane"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+
+            <hr class="footer-divider">
+            <div class="footer-columns" role="contentinfo">
+                <div class="col address">
+                    <p>123 Hello Street, CA<br>8034, LA</p>
+                    <p class="muted">+63976852918</p>
+                    <p class="muted">plants.ave@gmail.com</p>
+                </div>
+
+                <div class="col mission">
+                    <h4 class="brand-footer">Plants Avenue</h4>
+                    <p class="mission-text">Caring for plants enhances your space with life. Whether it's a small herb
+                        garden or a thriving jungle, nurturing your plants rewards you with greenery and serenity.</p>
+                    <div class="social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col pages">
+                    <h5>Pages</h5>
+                    <nav class="footer-nav" aria-label="Footer pages">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2023 PLANTS AVENUE | ALL RIGHTS RESERVED<br class="show-sm">DESIGN BY LA</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="landing/assets/js/main.js"></script>
+</body>
+
+</html>
