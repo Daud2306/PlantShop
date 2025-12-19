@@ -120,7 +120,6 @@ window.addEventListener('resize', function () {
 
 // 6. Initialize animations on scroll (optional - for future use)
 window.addEventListener('load', function () {
-    // You can add scroll animations here if needed
     const observerOptions = {
         root: null,
         rootMargin: '0px',
