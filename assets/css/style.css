@@ -1131,7 +1131,8 @@ h6,
     .circle-small {
         width: 150px;
         height: 150px;
-        bottom: 12px;
+        top: 110px;
+        left: -10px;
     }
 
     .cta-grid {
